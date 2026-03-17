@@ -1,0 +1,15 @@
+nome = input("digite o seu nome: ")
+Data_Nasc = input("digite sua data de nascimento: ")
+Dia_Nasc = input("digite sua dia de nascimento: ")
+mes_Nasc = input("digite sua mês de nascimento: ")
+ano_Nasc = input("digite sua ano de nascimento: ")
+num1 = int(input("insira um numero: "))
+num2 = int(input ("insira um segundo numero: "))
+
+total = (num1 + num2)
+
+print(f'Bem vindo(a), {nome}')
+print(f'Sua data de nascimento é {Data_Nasc}')
+print(f'Sua data de nascimento é {Dia_Nasc}/{mes_Nasc}/{ano_Nasc}')
+print( num1 + num2)
+print(total)
